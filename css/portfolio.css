@@ -1,0 +1,67 @@
+/* Color Scheme: 
+// #67A5BF
+// #446E7F
+// #89DCFF
+// #223740
+// #7BC6E5
+*/
+
+body{ 
+	margin:0px;
+	font-family: 'Muli', sans-serif;
+	background-color: #ffffff;
+}
+* { color: #223740; }
+nav { font-family: 'Open Sans', sans-serif; }
+nav li { float:left; }
+nav li.active { background-color: #223740 }
+nav ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#7BC6E5;
+}
+
+nav li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	background-color: #446E7F;
+}
+
+section { display: flex; }
+article { flex: 15 }
+aside { 
+	flex: 1;
+	min-width: 50px;
+	max-width: 65px;
+	margin-right:20px;
+}
+
+.sidebar_img {
+	width: 100%; 
+	border-color:#89DCFF00;
+	border-radius: 3px;
+	border-width: 3px;
+	border-style: solid;
+	background-color: #89DCFF00;
+}
+.sidebar_img:hover {
+	border-color:#89DCFF99;
+	border-radius: 3px;
+	border-width: 3px;
+	border-style: solid;
+	background-color: #89DCFF38;
+}
+.sidebar_item { 
+	padding: 10%; 
+	padding-bottom: 0px;
+}
+
+.contact_info{ list-style-type: none; }
